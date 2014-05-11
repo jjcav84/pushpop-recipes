@@ -1,10 +1,10 @@
 # pushpop-recipes
 
-This repository contains [Pushpop](https://github.com/keenlabs/pushpop) jobs and templates for doing common things.
+A collection of common [Pushpop](https://github.com/keenlabs/pushpop) jobs and templates
 
 ### Usage
 
-Including or trying out recipes is done by copying them from this repository into your Pushpop project. Here's an example of how to do this easily.
+Copy files from this repository into your Pushpop projects. Here's an example of how to do this with git and cp.
 
 **Clone this repository**
 
@@ -15,8 +15,8 @@ git clone git@github.com:keenlabs/pushpop-recipes.git
 **Copy into your Pushpop project**
 
 ``` shell
-cp pingpong/*.rb ../pushpop/jobs
-cp pingpong/*.erb ../pushpop/templates
+cp <recipe>/*.rb ../pushpop/jobs
+cp <recipe>/*.erb ../pushpop/templates
 ```
 
 This example assumes your `pushpop` folder is a sibling to `pushpop-recipes`.
@@ -33,7 +33,7 @@ Contributions are very welcome – that's what this repository is for! Please us
 
 ##### Organization
 
-Each recipe should be in its own folder. That folder should contain both job files and templates.
+Each related set of recipes should be grouped into its own folder. That folder can contain both job files and templates.
 
 ##### Guidelines
 
