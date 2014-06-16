@@ -25,7 +25,7 @@ This example assumes your `pushpop` folder is a sibling to `pushpop-recipes`.
 
 ##### Pingpong
 
-+ `response_time_report` - A job that sends a daily response time summary of HTTP checks performed by [Pingpong](https://github.com/pingpong/pingpong.git). Requires that environment variables for Keen IO and Sendgrid be set.
++ `response_time_report` - A job that sends a daily response time summary of HTTP checks performed by [Pingpong](https://github.com/keenlabs/pingpong.git). Requires that environment variables for Keen IO and Sendgrid be set.
 
 ### Contributing
 
