@@ -9,7 +9,7 @@ Copy files from this repository into your Pushpop projects. Here's an example of
 **Clone this repository**
 
 ``` shell
-git clone git@github.com:keenlabs/pushpop-recipes.git
+git clone git@github.com:pushpop-project/pushpop-recipes.git
 ```
 
 **Copy into your Pushpop project**
