@@ -31,7 +31,7 @@ This example assumes your `pushpop` folder is a sibling to `pushpop-recipes`.
 
 + `cache_warmer` - A job that runs a query at a specified interval and caches the results. You can read more about query caching [here](https://keen.io/docs/api/#query-caching).
 
-##### Trending Metrics Report
+##### 'Trending Metrics' scheduled email report
 
 + `trending_metrics` - Turnkey kit for scheduled report of daily trending metrics. Displays line of last n-days data, plus latest single value for each defined metric. Includes helper for displaying conversion % between two events. Requires that you have Keen IO .env vars and wire up sendgrid and intended recipients.
 
