@@ -27,6 +27,10 @@ This example assumes your `pushpop` folder is a sibling to `pushpop-recipes`.
 
 + `response_time_report` - A job that sends a daily response time summary of HTTP checks performed by [Pingpong](https://github.com/keenlabs/pingpong.git). Requires that environment variables for Keen IO and Sendgrid be set.
 
+##### Cache-warmer
+
++ `cache_warmer` - A job that runs a query at a specified interval and caches the results. You can read more about query caching [here](https://keen.io/docs/api/#query-caching).
+
 ### Contributing
 
 Contributions are very welcome – that's what this repository is for! Please use Github issues and pull requests to contribute.
